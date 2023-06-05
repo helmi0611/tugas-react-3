@@ -30,7 +30,9 @@ const CardProduct = (props) => {
         }}>
             {props.productName}
         </h2>
-        <p>{props.productPrice}</p>
+        <p>
+            {props.productPrice}
+        </p>
     </div>
   )
 }
